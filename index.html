@@ -153,11 +153,11 @@
         $('#question' + currentQuestion).removeClass('active');
         currentQuestion++;
 
-        if (currentQuestion <= 20) {
+        if (currentQuestion <= 1) {
             $('#question' + currentQuestion).addClass('active');
         }
 
-        if (currentQuestion === 20) {
+        if (currentQuestion === 1) {
             $('.next').hide();
             $('.submit').show();
         }
