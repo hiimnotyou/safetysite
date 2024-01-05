@@ -4,41 +4,6 @@
     border: none;
   }
 
-        body {
-            font-family: 'Open Sans', sans-serif;
-            background-color: #ffe4c4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
-
-        .container {
-            text-align: center;
-            padding: 30px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-        }
-
-        h1 {
-            color: #2e86c1;
-        }
-
-        p {
-            color: #333;
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        button {
-            padding: 15px 30px;
-            background-color: #2e86c1;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-        }
+    * {
+      font-family: Comic Sans MS;
+    }
