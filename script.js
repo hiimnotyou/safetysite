@@ -33,6 +33,9 @@ document.addEventListener('keypress', function (event) {
     }
 
     if (inputSequence === sequence) {
+      // Clear the input sequence
+      inputSequence = '';
+
       // Clear the entire body content
       document.body.innerHTML = '';
 
@@ -50,9 +53,10 @@ document.addEventListener('keypress', function (event) {
       break;
     } else if (i === sequences.length - 1) {
       // If the entered sequence doesn't match any predefined sequences
-      // Clear the entire body content
-      document.body.innerHTML = '';
-      break;
+      // Clear the input sequence
+      inputSequence = '';
+
+      // Do nothing or handle the incorrect sequence case as needed
     }
   }
 });
