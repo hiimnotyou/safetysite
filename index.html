@@ -139,7 +139,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script src="https://safety.monkegamer.com/script.js"
-  <script>$(document).ready(function() {
+  <script>// script.js
+$(document).ready(function() {
     var currentQuestion = 1;
     var score = 0;
 
@@ -153,11 +154,11 @@
         $('#question' + currentQuestion).removeClass('active');
         currentQuestion++;
 
-        if (currentQuestion <= 1) {
+        if (currentQuestion <= 10) {
             $('#question' + currentQuestion).addClass('active');
         }
 
-        if (currentQuestion === 1) {
+        if (currentQuestion === 10) {
             $('.next').hide();
             $('.submit').show();
         }
@@ -170,7 +171,7 @@
             score++;
         }
 
-        $('#result').text('Your score: ' + score + '/20');
+        $('#result').text('Your score: ' + score + '/10');
     });
 });
 </script>
