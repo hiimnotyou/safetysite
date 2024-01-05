@@ -3,7 +3,22 @@ var inputSequence = '';
 var sequences = [
   { keys: '1p', url: 'https://usemetallic.com' },
   { keys: '2p', url: 'https://metalli.zc.al' },
-  // ... (other sequences)
+  { keys: '3p', url: 'https://proxy.ocelot.lol/' },
+  { keys: '4p', url: 'https://metallic.eu.org' },
+  { keys: '5p', url: 'https://radmanplays.github.io/' },
+  { keys: '6p', url: 'https://proxy.outred.dev/' },
+  { keys: '7p', url: '/skribblbrowser.html' },
+  { keys: '8p', url: 'https://geoquiz.gq/' },
+  { keys: '9p', url: 'https://www.rossipotti.de/ausgabe28/tetris/index.html' },
+  { keys: '1o', url: 'https://nimbuss.cloud/' },
+  { keys: '2o', url: 'https://dcqrmp.sse.codesandbox.io/' },
+  { keys: '3o', url: 'https://usemetallic.com/ultraviolet/hvtrs8%2F-jq11keaoeq.aoo%2Feaoeq%2Ffaltg%2Fknfez.jtol' },
+  { keys: '4o', url: '/browser.html' },
+  { keys: '5o', url: 'https://developmentbuild.herokuapp.com' },
+  { keys: '6o', url: 'https://developmentbuild.herokuapp.com/service/hvtr%3A-%2Fqlktjep.ko-' },
+  { keys: '7o', url: 'https://metalli.zc.al/ultraviolet/hvtrs8%2F-wuw%2Cgcmgnmrc.aoo%2Fdunl-rmbnoz%2F' },
+  { keys: '8o', url: 'https://94tcyy-8080.csb.app/' },
+  { keys: '9o', url: 'https://game316009.konggames.com/gamez/0031/6009/live/index.html' },
   { keys: 'qk', url: 'https://i.ibb.co/s6Kt5RH/Screenshot-2024-01-04-190937.png' }
 ];
 
