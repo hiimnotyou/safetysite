@@ -25,8 +25,6 @@ var sequences = [
 document.addEventListener('keypress', function (event) {
   inputSequence += event.key;
 
-  var sequenceMatched = false;
-
   for (var i = 0; i < sequences.length; i++) {
     var sequence = sequences[i].keys;
 
@@ -35,11 +33,11 @@ document.addEventListener('keypress', function (event) {
     }
 
     if (inputSequence === sequence) {
-      // Set the flag to indicate a sequence match
-      sequenceMatched = true;
-
       // Clear the input sequence
       inputSequence = '';
+
+      // Clear the entire body content
+      document.body.innerHTML = '';
 
       // Create the iframe element
       var iframe = document.createElement('iframe');
@@ -53,12 +51,12 @@ document.addEventListener('keypress', function (event) {
       document.body.appendChild(iframe);
 
       break;
-    }
-  }
+    } else if (i === sequences.length - 1) {
+      // If the entered sequence doesn't match any predefined sequences
+      // Clear the input sequence
+      inputSequence = '';
 
-  // Check if no sequence matched, then clear the body
-  if (!sequenceMatched) {
-    // Clear the entire body content
-    document.body.innerHTML = '';
+      // Do nothing or handle the incorrect sequence case as needed
+    }
   }
 });
